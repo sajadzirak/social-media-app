@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "main-blue": "#1877f2"
+      }
+    },
+    fontFamily: {
+      sans: ['roboto', 'sans-serif'],
+      'roboto': ['roboto'],
+    },
+    transitionProperty: {
+      'left': 'left'
+    }
   },
   plugins: [],
 }
