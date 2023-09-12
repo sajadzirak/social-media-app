@@ -6,7 +6,7 @@ function Header({ currentUser, showMenu, onShowMenu }) {
 
   return (
     <>
-      <header className="sticky bg-main-blue h-[50px] w-full flex items-center text-white px-4">
+      <header className="fixed top-0 bg-main-blue h-[50px] w-full flex items-center text-white px-4">
         {showMenu ? (
           <i
             onClick={() => onShowMenu()}
@@ -33,7 +33,7 @@ function Header({ currentUser, showMenu, onShowMenu }) {
             <h1 className="font-medium text-lg">Social App</h1>
           )}
         </div>
-        <div className="flex items-center flex-[1]">
+        <div className="flex items-center justify-end flex-[1]">
           {showSearchbar ? (
             <i
             onClick={() => setShowSearchbar((current) => !current)}

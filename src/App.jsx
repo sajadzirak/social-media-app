@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Header currentUser={currentUser} showMenu={showMenu} onShowMenu={handleShowMenu} />
-      <Home showMenu={showMenu} />
+      <Home currentUser={currentUser} showMenu={showMenu} />
     </>
   );
 }
