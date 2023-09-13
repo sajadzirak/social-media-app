@@ -1,4 +1,4 @@
-import ShareOption from "./ShareOption";
+import ShareOption from "./shareOption/ShareOption";
 
 function SharePost({ currentUser }) {
   return (

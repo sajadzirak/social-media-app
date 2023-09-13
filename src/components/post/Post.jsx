@@ -31,7 +31,7 @@ function Post({ post }) {
       </div>
       <div>
         <p className="my-3">{post.desc}</p>
-        <img src={post.photo} alt="" />
+        <img className="m-auto" src={post.photo} alt="" />
       </div>
       <div className="flex items-center justify-between mt-3">
         <div className="flex items-center">

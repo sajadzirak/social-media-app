@@ -4,7 +4,7 @@ import SharePost from "../sharePost/SharePost"
 
 function Feed({currentUser}) {
     return (
-        <div className="flex flex-col w-full items-center mt-4">
+        <div className="xl:flex-[5] md:flex-[3] flex flex-col w-full items-center mt-4">
             <SharePost currentUser={currentUser} />
             {
                 posts.map(post => {

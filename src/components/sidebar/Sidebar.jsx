@@ -15,7 +15,7 @@ function Sidebar({showMenu}) {
   ];
 
   return (
-    <div className={`bg-white w-[75%] p-4 h-[calc(100vh-50px)] overflow-scroll fixed top-[50px] ${showMenu ? "left-0" : "left-[-100%]"} transition-left transition-slowest`}>
+    <div className={`xl:flex-[2] md:sticky md:left-0 md:flex-[1] bg-white w-[75%] sm:w-[60%] p-4 h-[calc(100vh-50px)] overflow-scroll fixed top-[50px] ${showMenu ? "left-0" : "left-[-100%]"} transition-left transition-slowest`}>
       <ul>
         {data.map((el) => {
           return (

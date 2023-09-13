@@ -1,9 +1,7 @@
 import { useState } from "react";
 
-import {posts} from "./db"
 import {users} from "./db";
 import Header from "./components/header/Header";
-import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./pages/Home";
 
 function App() {
